@@ -3,20 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Trener Personalny Tomasz Hajduk | Plany treningowe i dietetyczne</title>
-
-<meta name="description" content="Trener personalny Tomasz Hajduk. Indywidualne plany treningowe, diety, treningi personalne. Zbuduj formę, schudnij i popraw zdrowie z profesjonalnym wsparciem.">
-<meta name="keywords" content="trener personalny, trener personalny online, plan treningowy, dieta, redukcja, budowa masy, fitness, siłownia, Tomasz Hajduk">
-<meta name="author" content="Tomasz Hajduk">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://tomaszhajduk.pl/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Trener Personalny Tomasz Hajduk">
-<meta property="og:description" content="Indywidualne plany treningowe i diety. Osiągnij swoją najlepszą formę z trenerem personalnym Tomaszem Hajdukiem.">
-<meta property="og:url" content="https://tomaszhajduk.pl/">
-<meta property="og:image" content="https://tomaszhajduk.pl/og-image.jpg">
-<meta property="og:locale" content="pl_PL">
-<meta property="og:site_name" content="Tomasz Hajduk Trener Personalny">
+  <title>Trener Personalny Tomasz Hajduk | Plany treningowe i dietetyczne</title>
+  <meta name="description" content="Trener personalny Tomasz Hajduk. Indywidualne plany treningowe, diety, treningi personalne. Zbuduj formę, schudnij i popraw zdrowie z profesjonalnym wsparciem.">
+  <meta name="keywords" content="trener personalny, trener personalny online, plan treningowy, dieta, redukcja, budowa masy, fitness, siłownia, Tomasz Hajduk">
+  <meta name="author" content="Tomasz Hajduk">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tomaszhajduk.pl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trener Personalny Tomasz Hajduk">
+  <meta property="og:description" content="Indywidualne plany treningowe i diety. Osiągnij swoją najlepszą formę z trenerem personalnym Tomaszem Hajdukiem.">
+  <meta property="og:url" content="https://tomaszhajduk.pl/">
+  <meta property="og:image" content="https://tomaszhajduk.pl/og-image.jpg">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="Tomasz Hajduk Trener Personalny">
   <link rel="icon" href="img/logo.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <style>
@@ -31,10 +30,10 @@
       font-family: 'Inter', sans-serif;
       color: #FFFFFF;
       line-height: 1.3;
-      overflow-x: hidden;
+     
     }
 
-    /* TYPOGRAFIA - MOCNA, FASHION/EDITORIAL */
+    /* TYPOGRAFIA */
     h1, h2, h3, .logo, .nav-cta, .big-number {
       font-family: 'Syne', sans-serif;
       font-weight: 700;
@@ -42,7 +41,7 @@
     }
 
     h1 {
-      font-size: clamp(3.5rem, 8vw, 6.5rem);
+      font-size: clamp(3rem, 8vw, 6.5rem);
       font-weight: 800;
       line-height: 1.05;
       text-transform: uppercase;
@@ -50,35 +49,34 @@
     }
 
     h2 {
-      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-size: clamp(2rem, 6vw, 4rem);
       font-weight: 700;
       letter-spacing: -0.02em;
       margin-bottom: 2rem;
     }
 
     h3 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: 600;
       letter-spacing: -0.01em;
     }
 
-    /* NOWY KOLOR AKCENTU - BŁĘKIT PREMIUM */
     :root {
       --accent: #2E6BFF;
       --accent-glow: rgba(46, 107, 255, 0.2);
     }
 
-    /* PROSTOKĄTNE PRZYCISKI – BRAK ZAOKRĄGLEŃ */
+    /* PRZYCISKI */
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       background: transparent;
       border: 1.5px solid #FFFFFF;
-      padding: 1rem 2.5rem;
+      padding: 0.9rem 2rem;
       font-family: 'Syne', sans-serif;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       text-decoration: none;
@@ -87,6 +85,7 @@
       cursor: pointer;
       width: fit-content;
       background-color: transparent;
+      min-height: 48px;
     }
 
     .btn-primary {
@@ -116,25 +115,27 @@
       border-color: var(--accent);
     }
 
-    /* HEADER STICKY */
+    /* HEADER STICKY - MOBILE READY */
     .sticky-header {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      padding: 1.2rem 2.5rem;
+      padding: 0.9rem 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
       z-index: 1000;
-      background: rgba(0, 0, 0, 0.85);
+      background: rgba(0, 0, 0, 0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       transition: all 0.3s ease;
+      gap: 0.8rem;
     }
 
     .logo {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       font-weight: 800;
       letter-spacing: -0.02em;
       text-transform: uppercase;
@@ -142,32 +143,73 @@
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
+      white-space: nowrap;
+    }
+
+    .navbar {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.2s ease;
+      position: relative;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      color: var(--accent);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--accent);
+      transition: width 0.2s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
     }
 
     .ig-btn-small {
-      padding: 0.7rem 1.8rem;
-      font-size: 0.75rem;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.7rem;
       background: transparent;
       border: 1px solid var(--accent);
       color: var(--accent);
+      min-height: 40px;
     }
     .ig-btn-small:hover {
       background: var(--accent);
       color: #000;
     }
 
-    /* CONTAINER ASYMETRY + WHITESPACE */
+    /* CONTAINER */
     .container {
       max-width: 1400px;
-      margin: 40px auto;
-      padding: 0 2rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
     }
 
     section {
-      margin: 6rem 0;
+      margin: 5rem 0;
     }
 
-    /* HERO - NOWA WERSJA: IMIĘ NAZWIsko + TYTUŁ PO LEWEJ, DUŻE ZDJĘCIE PO PRAWEJ */
+    /* HERO */
     .hero {
       min-height: 100vh;
       display: flex;
@@ -178,20 +220,43 @@
       border-bottom: 1px solid rgba(46, 107, 255, 0.2);
       overflow-x: clip;
     }
+
     .hero-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.2fr;
-      gap: 2rem;
-      align-items: center;
-      width: 100%;
-    }
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    order: 2;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    order: 1;
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
     .hero-content {
-      padding: 4rem 0;
+      padding: 2rem 0;
       z-index: 2;
     }
     .hero-name {
       font-family: 'Syne', sans-serif;
-      font-size: clamp(3rem, 6vw, 5rem);
+      font-size: clamp(2.8rem, 7vw, 5rem);
       font-weight: 800;
       letter-spacing: -0.02em;
       text-transform: uppercase;
@@ -199,15 +264,15 @@
       margin-bottom: 0.5rem;
     }
     .hero-title {
-      font-size: clamp(1rem, 3vw, 1.3rem);
+      font-size: clamp(0.9rem, 3vw, 1.3rem);
       font-weight: 500;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 1.8rem;
+      margin-bottom: 1.5rem;
     }
     .hero-description {
-      font-size: 1rem;
+      font-size: 0.95rem;
       line-height: 1.4;
       margin-bottom: 2rem;
       color: #cccccc;
@@ -216,7 +281,6 @@
     .hero-image {
       position: relative;
       z-index: 1;
-      margin-left: -2rem;
     }
     .hero-image img {
       width: 100%;
@@ -224,43 +288,33 @@
       object-fit: cover;
       filter: grayscale(10%) contrast(1.05);
       display: block;
-      box-shadow: 30px 30px 0 rgba(46, 107, 255, 0.2);
-      transform: scale(1.02);
+      box-shadow: 20px 20px 0 rgba(46, 107, 255, 0.2);
     }
-    /* Asymetryczny akcent */
     .hero-badge {
       position: absolute;
       bottom: 8%;
-      right: 3%;
+      right: 2%;
       writing-mode: vertical-rl;
       text-orientation: mixed;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       letter-spacing: 0.2rem;
       color: var(--accent);
       font-weight: 500;
       text-transform: uppercase;
     }
 
-    /* O MNIE – layout z offsetem */
+    /* O MNIE */
     .about-grid {
       display: grid;
       grid-template-columns: 1fr 0.9fr;
-      gap: 4rem;
+      gap: 3rem;
       align-items: start;
-      position: relative;
-    }
-    .about-text {
-      padding-right: 2rem;
     }
     .about-text p {
-      font-size: 1.1rem;
+      font-size: 1rem;
       line-height: 1.5;
       margin-bottom: 1.5rem;
       color: #e0e0e0;
-    }
-    .about-img {
-      position: relative;
-      margin-top: 2rem;
     }
     .about-img img {
       width: 100%;
@@ -268,52 +322,49 @@
       object-fit: cover;
       filter: grayscale(20%) contrast(1.1);
       display: block;
-      border: none;
-      box-shadow: -20px 20px 0 rgba(46, 107, 255, 0.25);
+      box-shadow: -15px 15px 0 rgba(46, 107, 255, 0.25);
     }
 
-    /* OFERTA – karty surowe, prostokątne */
+    /* OFERTA */
     .offers-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 2rem;
+      gap: 1.8rem;
       margin-top: 2rem;
     }
     .offer-card {
       background: #0a0a0a;
-      padding: 2rem 1.8rem;
+      padding: 1.8rem 1.5rem;
       border: 1px solid #1f1f1f;
       transition: all 0.3s ease;
     }
     .offer-card:hover {
       border-color: var(--accent);
-      transform: translateY(-6px);
+      transform: translateY(-4px);
     }
     .offer-card h3 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       margin-bottom: 1rem;
-      letter-spacing: -0.01em;
     }
     .offer-card .price-tag {
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       color: #aaa;
-      margin: 1rem 0 0.5rem;
-      letter-spacing: 0.05em;
+      margin: 0.5rem 0 0.5rem;
     }
     .offer-card ul {
       list-style: none;
-      margin: 1.5rem 0;
+      margin: 1.2rem 0;
     }
     .offer-card li {
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.7rem;
       padding-left: 1rem;
       border-left: 2px solid var(--accent);
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #ccc;
     }
     .small-cta {
-      margin-top: 1.5rem;
-      font-size: 0.8rem;
+      margin-top: 1rem;
+      font-size: 0.75rem;
       font-weight: 600;
       text-transform: uppercase;
       text-decoration: none;
@@ -321,73 +372,52 @@
       border-bottom: 1px solid var(--accent);
       padding-bottom: 4px;
       display: inline-block;
-      transition: 0.2s;
-    }
-    .small-cta:hover {
-      color: #fff;
-      border-bottom-color: #fff;
     }
 
-    /* DARMOWA KONSULTACJA – WYŚRODKOWANA I MOCNO WYRÓŻNIONA */
+    /* DARMOWA KONSULTACJA */
     .consultation {
       background: linear-gradient(135deg, #050a15 0%, #0a0f1a 100%);
       border: 1px solid rgba(46, 107, 255, 0.5);
-      box-shadow: 0 0 30px rgba(46, 107, 255, 0.3);
-      padding: 4.5rem 3rem;
-      margin: 5rem auto;
+      box-shadow: 0 0 30px rgba(46, 107, 255, 0.2);
+      padding: 3rem 2rem;
+      margin: 4rem auto;
       max-width: 1100px;
-      position: relative;
       text-align: center;
-      transition: all 0.3s;
-    }
-    .consultation::before {
-      content: '';
-      position: absolute;
-      top: -2px;
-      left: -2px;
-      right: -2px;
-      bottom: -2px;
-      background: linear-gradient(135deg, var(--accent), transparent 80%);
-      z-index: -1;
-      opacity: 0.2;
     }
     .consultation h2 {
-      font-size: clamp(2.8rem, 6vw, 4.2rem);
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
       margin-bottom: 1rem;
       color: var(--accent);
-      text-align: center;
     }
     .consultation p {
       max-width: 700px;
-      margin: 0 auto 2rem auto;
-      font-size: 1.15rem;
+      margin: 0 auto 1.8rem auto;
+      font-size: 1rem;
       line-height: 1.5;
       color: #ddd;
-      text-align: center;
     }
-    .consultation .btn-group {
+    .btn-group {
       display: flex;
-      gap: 1.8rem;
+      gap: 1.2rem;
       justify-content: center;
       flex-wrap: wrap;
     }
     .btn-large {
-      padding: 1.2rem 3rem;
-      font-size: 1rem;
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
     }
 
-    /* PRZED / PO - DEDYKOWANA SEKCJA */
+    /* PRZED / PO */
     .beforeafter-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
       margin-top: 2rem;
     }
     .transformation-card {
       background: #0a0a0a;
       border: 1px solid #222;
-      padding: 1.2rem;
-      transition: 0.2s;
+      padding: 1rem;
     }
     .transformation-card:hover {
       border-color: var(--accent);
@@ -396,19 +426,20 @@
       display: flex;
       gap: 0.8rem;
       margin-bottom: 1rem;
+      flex-wrap: wrap;
     }
     .transformation-images div {
       flex: 1;
       background: #111;
-      min-height: 220px;
+      min-height: 180px;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       color: #aaa;
       border: 1px dashed #2a2a2a;
+      overflow: hidden;
     }
     .transformation-images img {
       width: 100%;
@@ -416,24 +447,15 @@
       display: block;
       object-fit: cover;
     }
-    .placeholder-img {
-      background: #111;
-      width: 100%;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.7rem;
-      color: #555;
-    }
     .client-meta {
-      margin-top: 1rem;
-      font-weight: 600;
+      margin-top: 0.8rem;
+      font-weight: 700;
       color: var(--accent);
       letter-spacing: 0.05em;
+      font-size: 0.8rem;
     }
 
-    /* SPONSOR – NOWOCZESNY BLOK */
+    /* SPONSOR */
     .sponsor-block {
       background: #020202;
       border: 1px solid #2a2a2a;
@@ -441,133 +463,87 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      padding: 2.5rem 3rem;
-      margin: 3rem 0;
+      gap: 1.2rem;
+      padding: 1.8rem 2rem;
+      margin: 2.5rem 0;
     }
-    .sponsor-logo {
-      font-size: 2rem;
-      font-weight: 800;
-      font-family: 'Syne', sans-serif;
-      letter-spacing: -0.02em;
-      background: linear-gradient(135deg, #fff, #aaa);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      margin-left: 50px;
+    .sponsor-logo img {
+      max-height: 50px;
+      width: auto;
     }
     .sponsor-code {
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 1rem;
       background: #111;
-      padding: 0.5rem 1rem;
+      padding: 0.4rem 1rem;
       border-left: 3px solid var(--accent);
+      word-break: break-word;
     }
     .sponsor-code span {
       color: var(--accent);
     }
 
-    /* OPINIE – QUOTES Z KRAWĘDZIAMI */
+    /* OPINIE */
     .testimonials {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.8rem;
     }
     .testimonial {
       background: #0a0a0a;
-      padding: 2rem;
+      padding: 1.8rem;
       border-right: 3px solid var(--accent);
     }
     .testimonial p {
-      font-size: 1rem;
+      font-size: 0.95rem;
       line-height: 1.4;
-      font-style: normal;
-      font-weight: 400;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.2rem;
       color: #ddd;
     }
     .testimonial .client-name {
       font-weight: 700;
       text-transform: uppercase;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       letter-spacing: 0.1em;
       color: var(--accent);
     }
 
     /* FINAL CTA */
     .final-cta {
-      text-align: center;
-      padding: 5rem 2rem;
+      padding: 4rem 0;
       background: linear-gradient(0deg, #000, #0f0f0f);
       border-top: 1px solid rgba(46, 107, 255, 0.3);
       border-bottom: 1px solid rgba(46, 107, 255, 0.3);
     }
-
-    /* MOBILE OPTIMIZATION */
-    @media (max-width: 1000px) {
-      .hero-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-      }
-      .hero-image {
-        margin-left: 0;
-        order: 2;
-        max-width: 90%;
-        margin-top: 1rem;
-      }
-      .hero-content {
-        order: 1;
-        text-align: center;
-      }
-      .hero-description {
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .hero-image img {
-        box-shadow: 15px 15px 0 rgba(46, 107, 255, 0.2);
-      }
-      .consultation {
-        margin: 3rem 1rem;
-        padding: 3rem 1.5rem;
-      }
+    .final-cta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      align-items: center;
     }
-    @media (max-width: 768px) {
-      .sticky-header {
-        padding: 1rem 1.2rem;
-      }
-      .container {
-        padding: 0 1.2rem;
-      }
-      section {
-        margin: 10rem 0;
-      }
-      .sponsor-block {
-        flex-direction: column;
-        gap: 1.2rem;
-        align-items: flex-start;
-        padding: 1.5rem;
-      }
-      .btn-group {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-      }
-      .btn-group .btn {
-        width: 100%;
-        text-align: center;
-      }
-      .offers-grid {
-        grid-template-columns: 1fr;
-      }
-      .about-grid {
-        grid-template-columns: 1fr;
-      }
-      .consultation .btn-group {
-        flex-direction: column;
-        align-items: stretch;
-      }
+    .final-cta-left h2 {
+      text-align: left;
+      margin: 0;
+    }
+    .final-cta-right {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    .final-cta-right .elfsight-app-42385c80-82bf-4375-b112-a34cc56fb83e {
+      width: 100%;
+      max-width: 400px;
     }
 
-    /* ANIMACJE FADE-IN / SMOOTH SCROLL */
+    footer {
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #666;
+      border-top: 1px solid #111;
+    }
+
+    /* ANIMACJE */
     .fade-up {
       opacity: 0;
       transform: translateY(35px);
@@ -580,114 +556,180 @@
     html {
       scroll-behavior: smooth;
     }
-    /* MICROINTERACTIONS */
-    a, .btn, .small-cta, .offer-card {
-      transition: all 0.2s ease;
-    }
     ::selection {
       background: var(--accent);
       color: black;
     }
-    img, .btn, .offer-card, .sponsor-block, .consultation, .testimonial, .transformation-card {
-      border-radius: 0px;
-    }
-    footer {
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.75rem;
-      color: #444;
-      border-top: 1px solid #111;
+    img {
+      max-width: 100%;
+      height: auto;
     }
 
-    .navbar {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
+    /* RESPONSYWNOŚĆ - TELEFONY */
+    @media (max-width: 900px) {
+      .sticky-header {
+        padding: 0.8rem 1.2rem;
+        gap: 0.6rem;
+      }
+      .navbar {
+        gap: 1rem;
+      }
+      .nav-link {
+        font-size: 0.65rem;
+        white-space: nowrap;
+      }
+      .logo {
+        font-size: 1.3rem;
+      }
+    }
 
-.nav-link {
-  font-family: 'Syne', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.2s ease;
-  position: relative;
-}
+    @media (max-width: 768px) {
+      .sticky-header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .navbar {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.4rem;
+      }
+      .nav-link {
+        font-size: 0.7rem;
+        white-space: normal;
+        text-align: center;
+      }
+      .ig-btn-small {
+        order: 2;
+        padding: 0.4rem 1rem;
+        font-size: 0.7rem;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+      }
+      .hero-image {
+        margin-left: 0;
+        order: 2;
+        max-width: 85%;
+        margin: 0 auto;
+      }
+      .hero-content {
+        order: 1;
+        text-align: center;
+      }
+      .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .hero-image img {
+        box-shadow: 12px 12px 0 rgba(46, 107, 255, 0.2);
+      }
+      .hero-badge {
+        display: none;
+      }
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .about-text {
+        padding-right: 0;
+      }
+      .consultation {
+        margin: 2rem 1rem;
+        padding: 2rem 1.2rem;
+      }
+      .btn-group {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .btn-group .btn {
+        width: 100%;
+        text-align: center;
+      }
+      .offers-grid {
+        grid-template-columns: 1fr;
+      }
+      .sponsor-block {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+      }
+      .sponsor-code {
+        width: 100%;
+        text-align: center;
+      }
+      .final-cta-grid {
+        grid-template-columns: 1fr;
+        gap: 1.8rem;
+        text-align: center;
+      }
+      .final-cta-left h2 {
+        text-align: center;
+      }
+      .final-cta-right {
+        justify-content: center;
+      }
+      .container {
+        padding: 0 1.2rem;
+      }
+      section {
+        margin: 4rem 0;
+      }
+      h2 {
+        margin-bottom: 1.5rem;
+      }
+      .btn {
+        padding: 0.8rem 1.6rem;
+      }
+      .transformation-images div {
+        min-height: 150px;
+      }
+    }
 
-.nav-link:hover {
-  color: var(--accent);
-}
-
-/* opcjonalnie: podkreślenie przy hover (edgy) */
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0;
-  height: 1.5px;
-  background: var(--accent);
-  transition: width 0.2s ease;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-}
-
-/* dostosowanie na mobile */
-@media (max-width: 900px) {
-  .navbar {
-    display: none; /* lub schowaj w menu hamburger, ale dla uproszczenia ukryj */
-  }
-}
-
-.final-cta {
-  /* Usuwamy padding, bo container daje padding */
-  padding: 5rem 0;  /* tylko pionowy */
-  background: linear-gradient(0deg, #000, #0f0f0f);
-  border-top: 1px solid rgba(46, 107, 255, 0.3);
-  border-bottom: 1px solid rgba(46, 107, 255, 0.3);
-}
-
-.final-cta .container {
-  max-width: 1400px; /* taki sam jak inne kontenery */
-  margin: 0 auto;
-  padding: 0 2rem; /* taki sam padding jak inne sekcje */
-}
-
-.final-cta-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem; /* odstęp między kolumnami – można zmniejszyć */
-  align-items: center;
-}
-
-.final-cta-left h2 {
-  text-align: left;
-  margin: 0;
-  max-width: none;
-}
-
-.final-cta-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-@media (max-width: 768px) {
-  .final-cta-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  .final-cta-left h2 {
-    text-align: center;
-  }
-  .final-cta-right {
-    justify-content: center;
-  }
-}
+    @media (max-width: 480px) {
+      .sticky-header {
+        padding: 0.6rem 1rem;
+      }
+      .navbar {
+        gap: 0.8rem;
+      }
+      .nav-link {
+        font-size: 0.6rem;
+        letter-spacing: 0.05em;
+      }
+      .logo {
+        font-size: 1.2rem;
+      }
+      .ig-btn-small {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.8rem;
+      }
+      .hero-name {
+        font-size: clamp(2.2rem, 10vw, 3.8rem);
+      }
+      .hero-title {
+        font-size: 0.8rem;
+      }
+      .hero-description {
+        font-size: 0.85rem;
+      }
+      .offer-card h3 {
+        font-size: 1.4rem;
+      }
+      .consultation h2 {
+        font-size: 1.8rem;
+      }
+      .consultation p {
+        font-size: 0.9rem;
+      }
+      .testimonial {
+        padding: 1.3rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -695,16 +737,16 @@
 <header class="sticky-header">
   <div class="logo">T&nbsp;K</div>
   <nav class="navbar">
-  <a href="#main" class="nav-link">STRONA GŁÓWNA</a>
-  <a href="#darmowa" class="nav-link">DARMOWA KONSULTACJA</a>
-  <a href="#oferta" class="nav-link">OFERTA</a>
-  <a href="#kontakt" class="nav-link">KONTAKT</a>
-</nav>
+    <a href="#main" class="nav-link">START</a>
+    <a href="#darmowa" class="nav-link">DARMOWA KONSULTACJA</a>
+    <a href="#oferta" class="nav-link">OFERTA</a>
+    <a href="#kontakt" class="nav-link">KONTAKT</a>
+  </nav>
   <a href="https://www.instagram.com/tomekhajduk/" target="_blank" class="btn ig-btn-small">NAPISZ NA IG →</a>
 </header>
 
 <main>
-  <!-- HERO SECTION: IMIĘ I NAZWISKO + TYTUŁ PO LEWEJ, DUŻE ZDJĘCIE PO PRAWEJ -->
+  <!-- HERO -->
   <section class="hero" id="main">
     <div class="container hero-grid">
       <div class="hero-content fade-up">
@@ -714,25 +756,24 @@
         <a href="https://www.instagram.com/tomekhajduk/" target="_blank" class="btn btn-primary">ZACZNIJ TERAZ →</a>
       </div>
       <div class="hero-image fade-up">
-        <!-- DUŻE ZDJĘCIE – zastąp src własnym plikiem -->
         <img src="img/avatar.png" loading="lazy" alt="Tomasz Hajduk – trener personalny">
       </div>
     </div>
     <div class="hero-badge">#PERSONAL TRENER #ELITE</div>
   </section>
 
-    <!-- SEKCJA SPONSORA -->
-  <section class="container" id="sfd">
+  <!-- SPONSOR -->
+  <section class="container">
     <div class="sponsor-block fade-up">
       <div class="sponsor-logo">
-  <img src="img/sfdlogo.png" alt="Logo sponsora" style="max-height: 60px; width: auto;">
-</div>
+        <img src="img/sfdlogo.png" alt="Logo sponsora" style="max-height: 55px; width: auto;">
+      </div>
       <div class="sponsor-code">KOD RABATOWY: <span>FRODO10</span> → -10% na WSZYSTKIE produkty</div>
-      <a href="https://instagram.com/nutritionlab" target="_blank" class="btn" style="border-color:#2E6BFF; color:#2E6BFF; padding:0.7rem 1.8rem;">SPRAWDŹ OFERTĘ</a>
+      <a href="https://instagram.com/nutritionlab" target="_blank" class="btn" style="border-color:#2E6BFF; color:#2E6BFF; padding:0.6rem 1.5rem;">SPRAWDŹ OFERTĘ</a>
     </div>
   </section>
 
-  <!-- DARMOWA KONSULTACJA – WYŚRODKOWANA I MOCNO WYRÓŻNIONA -->
+  <!-- DARMOWA KONSULTACJA -->
   <section class="consultation fade-up" id="darmowa">
     <h2>DARMOWA KONSULTACJA</h2>
     <p>Wypełnij krótką ankietę - przeanalizuję Twój poziom zaawansowania, cele i ograniczenia. To pierwszy krok do świadomej i skutecznej zmiany. Otrzymasz ode mnie diagnozę oraz wstępną strategię dopasowaną do Twojego stylu życia.</p>
@@ -742,7 +783,7 @@
     </div>
   </section>
 
-  <!-- OFERTA (bez cen) -->
+  <!-- OFERTA -->
   <section class="container" id="oferta">
     <h2 class="fade-up">OFERTA PREMIUM</h2>
     <div class="offers-grid fade-up">
@@ -790,59 +831,47 @@
     </div>
   </section>
 
-  <!-- SEKCJA PRZED / PO – DODAJESZ SWOJE ZDJĘCIA -->
-  <section class="container" id="opinie">
+  <!-- PRZED/PO -->
+  <section class="container">
     <h2 class="fade-up">TRANSFORMACJE KLIENTÓW</h2>
     <div class="beforeafter-grid fade-up">
       <div class="transformation-card">
-<div class="transformation-images">
-  <div>
-    <img src="img/przed1.png" alt="Przed transformacją" style="width:100%; height:auto; display:block;">
-  </div>
-  <div>
-    <img src="img/po1.png" alt="Po transformacji" style="width:100%; height:auto; display:block;">
-  </div>
-</div>
+        <div class="transformation-images">
+          <div><img src="img/przed1.png" alt="Przed transformacją" style="width:100%; height:auto;"></div>
+          <div><img src="img/po1.png" alt="Po transformacji" style="width:100%; height:auto;"></div>
+        </div>
         <div class="client-meta">MARCIN L. | -18kg | 12 tygodni</div>
-        <p style="font-size:0.8rem; margin-top:0.5rem;">Redukcja tkanki tłuszczowej, wzrost siły i poprawa składu ciała.</p>
+        <p style="font-size:0.75rem; margin-top:0.5rem;">Redukcja tkanki tłuszczowej, wzrost siły i poprawa składu ciała.</p>
       </div>
       <div class="transformation-card">
-<div class="transformation-images">
-  <div>
-    <img src="sciezka/do/twojego/przed.jpg" alt="Przed transformacją" style="width:100%; height:auto; display:block;">
-  </div>
-  <div>
-    <img src="sciezka/do/twojego/po.jpg" alt="Po transformacji" style="width:100%; height:auto; display:block;">
-  </div>
-</div>
+        <div class="transformation-images">
+          <div><img src="img/przed2.png" alt="Przed transformacją" style="width:100%; height:auto;"></div>
+          <div><img src="img/po2.png" alt="Po transformacji" style="width:100%; height:auto;"></div>
+        </div>
         <div class="client-meta">NATALIA W. | Rekompozycja | 16 tyg.</div>
-        <p style="font-size:0.8rem; margin-top:0.5rem;">Zmiana nawyków żywieniowych, +4kg mięśni, -9% BF.</p>
+        <p style="font-size:0.75rem; margin-top:0.5rem;">Zmiana nawyków żywieniowych, +4kg mięśni, -9% BF.</p>
       </div>
       <div class="transformation-card">
-<div class="transformation-images">
-  <div>
-    <img src="sciezka/do/twojego/przed.jpg" alt="Przed transformacją" style="width:100%; height:auto; display:block;">
-  </div>
-  <div>
-    <img src="sciezka/do/twojego/po.jpg" alt="Po transformacji" style="width:100%; height:auto; display:block;">
-  </div>
-</div>
+        <div class="transformation-images">
+          <div><img src="img/przed3.png" alt="Przed" style="width:100%; height:auto;" onerror="this.src='https://placehold.co/400x300/111/2E6BFF?text=PRZED'"></div>
+          <div><img src="img/po3.png" alt="Po" style="width:100%; height:auto;" onerror="this.src='https://placehold.co/400x300/111/2E6BFF?text=PO'"></div>
+        </div>
         <div class="client-meta">TOMASZ K. | -12kg | 10 tyg.</div>
-        <p style="font-size:0.8rem; margin-top:0.5rem;">Kompleksowy pakiet plan+ dieta, efekty widoczne po 6 tygodniach.</p>
+        <p style="font-size:0.75rem; margin-top:0.5rem;">Kompleksowy pakiet plan+ dieta, efekty widoczne po 6 tygodniach.</p>
       </div>
     </div>
   </section>
 
-  <!-- OPINIE / REZULTATY -->
+  <!-- OPINIE -->
   <section class="container">
     <h2 class="fade-up">CO MÓWIĄ KLIENCI</h2>
     <div class="testimonials fade-up">
       <div class="testimonial">
-        <p>„W ciągu 5 miesięcy -18 kg tkanki tłuszczowej, +5 kg mięśni. Arkadiusz zmienił moje podejście do treningu i jedzenia. Nie spodziewałem się takiego poziomu wsparcia.”</p>
+        <p>„W ciągu 5 miesięcy -18 kg tkanki tłuszczowej, +5 kg mięśni. Tomasz zmienił moje podejście do treningu i jedzenia. Nie spodziewałem się takiego poziomu wsparcia.”</p>
         <div class="client-name">- MARCIN, CFO</div>
       </div>
       <div class="testimonial">
-        <p>„Pracowałam z 3 trenerami, ale dopiero u Arkadiusza zrozumiałam, co znaczy trening celowany. Rekompozycja sylwetki, siła psychiczna, efekty widoczne gołym okiem.”</p>
+        <p>„Pracowałam z 3 trenerami, ale dopiero u Tomasza zrozumiałam, co znaczy trening celowany. Rekompozycja sylwetki, siła psychiczna, efekty widoczne gołym okiem.”</p>
         <div class="client-name">- NATALIA, DZIENNIKARKA</div>
       </div>
       <div class="testimonial">
@@ -850,30 +879,29 @@
         <div class="client-name">- TOMASZ, PRZEDSIĘBIORCA</div>
       </div>
     </div>
-    <div style="margin-top: 2rem; text-align: right; border-top: 1px solid #222; padding-top: 1.2rem;" class="fade-up">
-      <span style="font-size: 0.8rem; letter-spacing: 0.1rem;">+200 PRZEMIAN · 97% SATYSFAKCJI</span>
+    <div style="margin-top: 2rem; text-align: right; border-top: 1px solid #222; padding-top: 1rem;">
+      <span style="font-size: 0.7rem; letter-spacing: 0.1rem;">+200 PRZEMIAN · 97% SATYSFAKCJI</span>
     </div>
   </section>
 
- 
-<section class="final-cta fade-up" id="kontakt">
-  <div class="container">
-    <div class="final-cta-grid">
-      <div class="final-cta-left">
-        <h2>MASZ PYTANIA?<br>Napisz do mnie na INSTAGRAMIE!</h2>
-      </div>
-      <div class="final-cta-right">
-        <!-- Elfsight Instagram Feed -->
-        <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-42385c80-82bf-4375-b112-a34cc56fb83e" data-elfsight-app-lazy></div>
+  <!-- FINAL CTA Z INSTA WIDGET -->
+  <section class="final-cta fade-up" id="kontakt">
+    <div class="container">
+      <div class="final-cta-grid">
+        <div class="final-cta-left">
+          <h2>MASZ PYTANIA?<br>Napisz do mnie na INSTAGRAMIE!</h2>
+        </div>
+        <div class="final-cta-right">
+          <script src="https://elfsightcdn.com/platform.js" async></script>
+          <div class="elfsight-app-42385c80-82bf-4375-b112-a34cc56fb83e" data-elfsight-app-lazy></div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <footer>
-  <p>© 2025 Tomasz Hajduk · PREMIUM COACHING · WSZELKIE CTA KIERUJĄ NA INSTAGRAM</p>
+  <p>© 2026 Tomasz Hajduk</p>
 </footer>
 
 <script>
@@ -886,23 +914,24 @@
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+  }, { threshold: 0.1, rootMargin: "0px 0px -30px 0px" });
   fadeElements.forEach(el => observer.observe(el));
 
-  // wszystkie linki instagram/forms otwierane w nowej karcie
+  // linki zewnętrzne target blank
   const allLinks = document.querySelectorAll('a[href*="instagram.com"], a[href*="forms.gle"]');
   allLinks.forEach(link => {
     link.setAttribute('target', '_blank');
     link.setAttribute('rel', 'noopener noreferrer');
   });
-  // Sticky header efekt
+
+  // Sticky header scroll efekt
   const header = document.querySelector('.sticky-header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 10) {
-      header.style.backgroundColor = 'rgba(0,0,0,0.95)';
+      header.style.backgroundColor = 'rgba(0,0,0,0.96)';
       header.style.backdropFilter = 'blur(16px)';
     } else {
-      header.style.backgroundColor = 'rgba(0,0,0,0.85)';
+      header.style.backgroundColor = 'rgba(0,0,0,0.92)';
       header.style.backdropFilter = 'blur(12px)';
     }
   });
@@ -919,13 +948,7 @@
     "@type": "Country",
     "name": "Polska"
   },
-  "knowsAbout": [
-    "trening siłowy",
-    "redukcja tkanki tłuszczowej",
-    "budowa masy mięśniowej",
-    "dieta",
-    "fitness"
-  ]
+  "knowsAbout": ["trening siłowy", "redukcja tkanki tłuszczowej", "budowa masy mięśniowej", "dieta", "fitness"]
 }
 </script>
 </body>
